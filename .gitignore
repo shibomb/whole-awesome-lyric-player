@@ -1,0 +1,15 @@
+# Node.js
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# --- System ---
+.DS_Store
+Thumbs.db
+*.swp
+*.bak
+
+# --- Files ---
+fonts/samples/
+data/samples/

@@ -1,0 +1,29 @@
+# Awesome Lyric Player
+
+A web-based lyric visualization tool that renders synchronized text animations using p5.js. It loads audio and SRT files to display kinetic typography in time with the music.
+
+## Key Features
+- **p5.js Visualization**: Uses p5.js for high-performance canvas rendering.
+- **Kinetic Typography**: Dynamically spawns text particles based on SRT timing.
+- **Waveform Display**: Visualizes audio waveform using WaveSurfer.js.
+- **Customizable Styles**: Supports custom fonts, colors, and background transparency.
+- **Performance Optimized**: Uses efficient path rendering for text.
+
+## Key Files
+- `index.html`: Entry point, loads libraries (p5.js, WaveSurfer.js) and scripts.
+- `sketch.js`: Main p5.js sketch file, handles canvas setup and draw loop.
+- `lib/awesomeLyricPlayer.js`: Core player logic, parses SRT, manages lyric blocks.
+- `lib/awesomeLyricBlockBasic.js`: Defines lyric block behaviors (e.g., granular text spawning).
+
+## Usage
+Open `index.html` in a browser. Press `S` to start/pause playback, `R` to reset, `B` to toggle background transparency, `M` to toggle mute.
+
+## License
+This project is licensed under the PolyForm Noncommercial License 1.0.0.
+
+### Commercial Use
+If you want to use this software for commercial purposes, please contact me.  
+* Contact: contact@whole.jp
+
+## URL
+https://awesome-lyric-player.32keta.com
